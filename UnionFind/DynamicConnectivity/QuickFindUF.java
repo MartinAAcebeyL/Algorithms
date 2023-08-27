@@ -1,10 +1,10 @@
 package UnionFind.DynamicConnectivity;
 
 
-class BasicUF {
+class QuickFindUF {
     private int id[];
 
-    BasicUF(int N) {
+    QuickFindUF(int N) {
         id = new int[N];
         for (int i = 0; i < N; i++) {
             id[i] = i; // each object is in its own component

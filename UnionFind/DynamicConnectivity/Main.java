@@ -3,7 +3,7 @@ package UnionFind.DynamicConnectivity;
 
 public class Main {
     public static void main(String[] args) {
-        BasicUF uf = new BasicUF(10);
+        QuickFindUF uf = new QuickFindUF(10);
         uf.union(4, 3);
         uf.union(3, 8);
         uf.union(6, 5);
