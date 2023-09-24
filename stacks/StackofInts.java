@@ -8,7 +8,6 @@ class Node {
         this.item = _item;
         this.next = null;
     }
-
 }
 
 public class StackofInts {
