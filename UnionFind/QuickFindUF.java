@@ -1,4 +1,4 @@
-package UnionFind.DynamicConnectivity;
+package UnionFind;
 
 
 class QuickFindUF {
