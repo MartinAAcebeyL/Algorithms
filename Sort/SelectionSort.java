@@ -2,6 +2,7 @@ package Sort;
 
 public class SelectionSort {
     public static void sort(int[] a) {
+        // El elemento mas pequenio lo cambiamos con i
         int len = a.length;
 
         for (int i = 0; i < len; i++) {
